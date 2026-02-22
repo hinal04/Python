@@ -14,8 +14,10 @@ print("Length of the string:", length)
 #string case
 
 text = "Python is awesome"
+
 uppercase = text.upper()
 lowercase = text.lower()
+
 print("Uppercase:", uppercase)
 print("Lowercase:", lowercase)
 
@@ -28,9 +30,13 @@ print("Replaced text:", new_text)
 #string split
 
 text = "Python is awesome"
+
 words = text.split()
+
 print("Words:", words)
+
 print("First word:" , words[0])
+
 print("Last word:" , words[-1:])
 
 #string strip
@@ -53,7 +59,7 @@ num1 = 5.0
 num2 = 2.5
 
 # Basic Arithmetic
-result1 = num1 + num2
+result1 = num1 + num2s
 print("Addition:", result1)
 
 result2 = num1 - num2
